@@ -3,7 +3,7 @@ from http import HTTPStatus
 import dashscope
 
 
-dashscope.api_key = "sk-d4ec507cebcd42a28a5f719ebc5d70b7"
+dashscope.api_key = ""
 def simple_multimodal_conversation_call():
     """Simple single round multimodal conversation call.
     """

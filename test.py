@@ -8,7 +8,7 @@ import multiprocessing
 def get_response_online(image_url):
     client = OpenAI(
         # api_key=os.getenv("DASHSCOPE_API_KEY"),
-        api_key= "sk-d4ec507cebcd42a28a5f719ebc5d70b7",
+        api_key= "",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     completion = client.chat.completions.create(
